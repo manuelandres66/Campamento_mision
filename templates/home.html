@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+    <title>Adquiere tu pasaporte</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script src="https://kit.fontawesome.com/7c5129238c.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}" type="text/css">
+</head>
+{% include 'barra.html' %}
+
+<body>
+    <div class="titulo_contenedor">
+        <h1 class="titulo_titulo">Bienvenido Campista!</h1>
+    </div>
+    <div class="parrafo_contenedor">
+        <p class="parrafo_parrafo">Estás por emprender un nuevo viaje, pero !ups! Aún no tienes pasaporte. Obten uno clickeando abajo.</p>
+        <i class="fas fa-plane-departure fa-10x parrafo_icono"></i>
+    </div>
+    <div class="button_contenedor"><a href="{% static 'images/logo.png' %}" download class="button_link"><button>Obtener mi pasaporte <i class="fas fa-passport"></i></button></a></div>
+</body>
+
+</html>

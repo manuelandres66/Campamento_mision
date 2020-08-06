@@ -1,0 +1,108 @@
+
+
+.titulo_contenedor {
+    margin: auto;
+    margin-top: 12vh;
+    text-align: center;
+}
+
+.titulo_titulo {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    text-align: center;
+    width: 40%;
+    padding-bottom: 5px;
+    border-bottom: 7px solid #0269b6;
+}
+
+.parrafo_contenedor {
+    margin-top: 7vh;
+}
+
+.parrafo_parrafo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    display: inline-block;
+    margin-left: 21.6vw;
+    width: 49vw;
+    position: relative;
+    bottom: 4vh;
+}
+
+.parrafo_icono {
+    width: 144px;
+    color: #0269b6;
+}
+
+.button_contenedor {
+    margin-top: 12vh;
+    text-align: center;
+}
+
+.button_link {
+    cursor: pointer;
+}
+
+.button_link button {
+    background-color: #0269b6;
+    color: #fff;
+    width: 56vw;
+    height: 8vh;
+    border-radius: 45px;
+    border: none;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1080px) {
+    .titulo_contenedor {
+        display: inline-block;
+        position: absolute;
+        top: 4vh;
+        left: 1vw;
+        border-bottom: 4px solid #0269b6;
+
+    }
+    .titulo_titulo {
+        display: inline-block;
+        font-size: 8vw;
+        width: 80vw;
+        height: 5vh;
+        border: 0;
+        
+    }
+
+    .parrafo_icono {
+        font-size: 16.8vh;
+        position: absolute;
+        left: 31.2vw;
+        top: 26vh;
+    }
+
+    .parrafo_parrafo {
+        font-size: 20px;
+        width: 87vw;
+        height: 10.6vh;
+        margin: 0;
+        position: relative;
+        top: 32vh;
+        text-align: center;
+        margin-left: 6.5vw;
+    }
+
+    .button_contenedor {
+        position: relative;
+        margin: 0;
+        top: 40vh;
+    }
+
+    .button_link button {
+        font-size: 20px;
+        width: 92vw;
+        height: 6.8vh;
+    }
+  }

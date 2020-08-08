@@ -62,6 +62,7 @@
         position: absolute;
         left: 22vw;
         top: 3.7vh;
+        z-index: 1;
     }
     .barra-menu {
         position: absolute;

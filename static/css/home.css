@@ -39,10 +39,12 @@
 .button_contenedor {
     margin-top: 12vh;
     text-align: center;
+    z-index: 1;
 }
 
 .button_link {
     cursor: pointer;
+    z-index: 10;
 }
 
 .button_link button {
@@ -56,6 +58,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     cursor: pointer;
+    z-index: 100;
 }
 
 @media only screen and (max-width: 1080px) {

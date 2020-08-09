@@ -26,6 +26,7 @@
     position: relative;
     bottom: 3.5vh;
     margin-left: 1vw;
+    z-index: 2;
 }
 
 .barra-menu {
@@ -36,6 +37,7 @@
     margin-left: 50%;
     border-bottom: 5px solid #ec1d25;
     border-bottom-left-radius: 6px;
+    z-index: 1;
 }
 
 .barra_link {
@@ -44,6 +46,7 @@
     font-size: 20px;
     color: #fff;
     margin-left: 8vw;
+    z-index: 10;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -63,6 +66,7 @@
         left: 22vw;
         top: 3.7vh;
         z-index: 1;
+        height: 5vh;
     }
     .barra-menu {
         position: absolute;

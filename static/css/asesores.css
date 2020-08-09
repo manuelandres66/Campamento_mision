@@ -46,6 +46,7 @@ input {
     padding: 2px;
     text-align: center;
     margin-bottom: 6.1vh;
+    z-index: -1;
 }
 
 .enviar {
